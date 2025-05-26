@@ -62,12 +62,17 @@ Cloud-Based-Service-for-Basic-Data-Analytics/
 
 ## 📸 Screenshots
 
-![UploadPage](https://github.com/user-attachments/assets/d7b279cd-e93a-4543-b609-275cbe25b6a4)
-![SortPage](https://github.com/user-attachments/assets/82ca2750-773e-4d51-8fda-e2a160d422a7)
-![SearchPage](https://github.com/user-attachments/assets/6adf7e8d-2d38-4f94-8d8b-de99286f0572)
-![DownloadHighlightedDoc](https://github.com/user-attachments/assets/e4e53647-c6cd-4057-a1bb-ffc480ea0ba1)
-![HighlightedKeywords](https://github.com/user-attachments/assets/8406f450-f4f6-4749-a8e6-929ad79097bb)
-![Catgories](https://github.com/user-attachments/assets/35081d29-d7be-487a-a541-350439e36451)
+![‏‏لقطة الشاشة (19)](https://github.com/user-attachments/assets/a08d32b9-e505-42df-b1bc-e55de12071c2)
+![‏‏لقطة الشاشة (20)](https://github.com/user-attachments/assets/8e61b747-ffe3-4981-910a-a87b191a3908)
+![‏‏لقطة الشاشة (21)](https://github.com/user-attachments/assets/1a47f403-b72c-4d23-9f36-0dc6733f8f35)
+![‏‏لقطة الشاشة (22)](https://github.com/user-attachments/assets/4af05212-0c53-4849-a0c4-bb08fff6b398)
+![‏‏لقطة الشاشة (23)](https://github.com/user-attachments/assets/f9616479-c4fc-4002-8572-4aec79fa07fc)
+![‏‏لقطة الشاشة (24)](https://github.com/user-attachments/assets/cea787ea-39e1-451d-94d7-4c2008750478)
+![‏‏لقطة الشاشة (25)](https://github.com/user-attachments/assets/1349862a-72cb-4f09-995f-b61172f11906)
+![‏‏لقطة الشاشة (26)](https://github.com/user-attachments/assets/b9d75f4e-9a92-4505-8cc3-e1c09f9621ae)
+![‏‏لقطة الشاشة (27)](https://github.com/user-attachments/assets/3b62dcee-05eb-428f-b7c3-6beff97af892)
+![‏‏لقطة الشاشة (28)](https://github.com/user-attachments/assets/aeda0446-99d0-4b09-8732-bf813e186b17)
+
 ---
 Nader Mohamed Hasan Abu Sulieman
 ---
