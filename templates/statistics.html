@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Analytics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../static/statistics.css">
+</head>
+<body>
+    <h2>Document Analytics</h2>
+    
+    <div class="stats-grid">
+        <div class="stat-card">
+            <i class="fas fa-file-alt stat-icon"></i>
+            <div class="stat-value">{{ stats.num_files }}</div>
+            <div class="stat-label">Total Documents</div>
+        </div>
+
+        <div class="stat-card">
+            <i class="fas fa-database stat-icon"></i>
+            <div class="stat-value">{{ stats.total_size }}KB</div>
+            <div class="stat-label">Storage</div>
+        </div>
+
+        <div class="stat-card">
+            <i class="fas fa-sort-amount-down stat-icon"></i>
+            <div class="stat-value">{{ stats.sort_time }}s</div>
+            <div class="stat-label">Sort Time</div>
+        </div>
+
+        <div class="stat-card">
+            <i class="fas fa-search stat-icon"></i>
+            <div class="stat-value">{{ stats.search_time }}s</div>
+            <div class="stat-label">Search Time</div>
+        </div>
+
+        <div class="stat-card">
+            <i class="fas fa-tag stat-icon"></i>
+            <div class="stat-value">{{ stats.classify_time }}s</div>
+            <div class="stat-label">Classification Time</div>
+        </div>
+    </div>
+</body>
+</html>

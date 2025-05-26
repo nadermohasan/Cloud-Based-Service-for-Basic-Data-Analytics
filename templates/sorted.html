@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Documents Sorted by Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/sorted.css">
+</head>
+<body>
+    <h1>Documents Sorted by Title</h1>
+    <p>Sorting took {{ time }} seconds</p>
+    <table>
+        <thead>
+            <tr>
+                <th>File Name</th>
+                <th>Title</th>
+                <th>Size (KB)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for doc in documents %}
+            <tr>
+                <td data-label="File Name">{{ doc.filename }}</td>
+                <td data-label="File Title"><strong>{{ doc.title }}</strong></td>
+                <td data-label="Size">{{ doc.size }}KB</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

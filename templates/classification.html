@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classified Documents</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../static/classification.css">
+</head>
+<body>
+    <h1>📂 Classified Documents</h1>
+    <div class="time-badge">
+        Classification completed in {{ time }} seconds
+    </div>
+
+    <div class="category-grid">
+        {% for category, files in classifications.items() %}
+            <div class="category-card">
+                <h2>
+                    <i class="fas fa-folder category-icon"></i>
+                    {{ category }}
+                </h2>
+                <ul>
+                    {% for file in files %}
+                        <li>{{ file }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

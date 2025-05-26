@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results for "{{ keyword }}"</title>
+    <link rel="stylesheet" href="../static/search_results.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Search Results for "{{ keyword }}"</h1>
+            <div class="search-meta">
+                Search took {{ time }} seconds
+            </div>
+            {% if results %}
+                <div class="results-count">{{ results|length }} results found</div>
+            {% endif %}
+        </header>
+
+        <ul class="results-list">
+            {% if results %}
+                {% for result in results %}
+                    <li class="result-item">
+                        <a href="{{ url_for('download_highlighted', filename=result.filename, keyword=keyword) }}" class="filename">
+    {{ result.filename }}
+</a>
+                        <div class="snippet">...{{ result.snippet|safe }}...</div>
+                    </li>
+                {% endfor %}
+            {% else %}
+                <div class="no-results">
+                    No results found for "{{ keyword }}". Try different keywords.
+                </div>
+            {% endif %}
+        </ul>
+    </div>
+</body>
