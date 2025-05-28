@@ -7,6 +7,7 @@ This project including the development of a cloud-based program/service designed
 2.	Searching for specific keywords in documents, with highlighted matched results.
 3.	Classifying documents, using a predefined classification tree.
 4.	Statistics, such as (documents size, count, times for operations)
+
 To meet requirements, the application was deployed using Supabase – a free open source Firebase alternative platform. All operations are executed in Supabase Storage. This ensures scalability, accessibility and a real-world distributed cloud system.
 This documentation or report, including the software design, functions, implementation and deployment steps. It also mentioned the the challenges and the techniques used to ensure that the application meets the requirements.
 The cloud-based development methodology which adapted is Agile Cloud Methodology. Where the application was developed incrementally and adapted based on user requirements.
