@@ -41,7 +41,7 @@ The cloud-based development methodology which adapted is Agile Cloud Methodology
 
 ```
 Cloud-Based-Service-for-Basic-Data-Analytics/
-├── app.py                  # Main Flask application
+├── app.py                  # Flask application
 ├── templates/              # HTML pages
 ├── static/                 # CSS files
 ├── requirements.txt
