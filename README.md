@@ -86,5 +86,5 @@ Cloud-Based-Service-for-Basic-Data-Analytics/
 Nader Mohamed Hasan Abu Sulieman
 ---
 
-> Developed as part of Cloud & Distributed Systems Course Assignment – 2025  
+> Developed as a part of Cloud and Distributed Systems course assignment – 2025  
 > IUG - Faculty of Information Technology, Department of Software Development
