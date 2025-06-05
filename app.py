@@ -45,9 +45,11 @@ CLASSIFICATION_TREE = {
 }
 
 def get_all_files():
-    """Get list of all files from Supabase storage"""
+    """Get list of valid .pdf or .docx files only from Supabase storage"""
     res = supabase.storage.from_(BUCKET_NAME).list()
-    return [file['name'] for file in res]
+    return [file['name'] for file in res
+            if
+            file['name'].lower().endswith(('.pdf', 'docx')) and file['name'] != '.emptyFolderPlaceholder']
 
 def get_file_bytes(filename):
     """Get file bytes from Supabase storage"""
