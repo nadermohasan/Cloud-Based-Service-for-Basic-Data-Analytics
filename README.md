@@ -60,7 +60,7 @@ Cloud-Based-Service-for-Basic-Data-Analytics/
 2. **Set up Supabase**
    - Create a project at [https://supabase.com](https://supabase.com)
    - Create a storage bucket called `documents` and make it public
-   - Add your Supabase URL and API key in `app.py`
+   - Add the Supabase URL and API key in `app.py`
 
 3. **Run the app**
    ```bash
