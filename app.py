@@ -157,7 +157,7 @@ def search():
         for filename in get_all_files():
             try:
                 file_bytes = get_file_bytes(filename)
-                content = extract_text(filename, file_bytes).lower()  # لن تسبب خطأ لأن extract_text تعيد سلسلة فارغة الآن
+                content = extract_text(filename, file_bytes).lower()
                 
                 if keyword in content:
                     index = content.find(keyword)
