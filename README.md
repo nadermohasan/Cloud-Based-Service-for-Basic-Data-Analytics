@@ -2,15 +2,21 @@
 # ☁️ Cloud-Based Service for Basic Data Analytics
 
 ## Introduction
-This project including the development of a cloud-based program/service designed to analyze collection of  PDF and Word documents efficiently. The service provides three core functions: 
-1.	Sorting documents based on their titles (not filenames)
-2.	Searching for specific keywords in documents, with highlighted matched results.
-3.	Classifying documents, using a predefined classification tree.
-4.	Statistics, such as (documents size, count, times for operations)
-
-To meet requirements, the application was deployed using Render –a cloud hosting service. Cloud service was setup using Supabase – a free open source Firebase alternative platform. All operations are executed in Supabase Storage. This ensures scalability, accessibility and a real-world distributed cloud system.
-This documentation or report, including the software design, functions, implementation and deployment steps. It also mentioned the the challenges and the techniques used to ensure that the application meets the requirements.
-The cloud-based development methodology which adapted is Agile Cloud Methodology. Where the application was developed incrementally and adapted based on user requirements.
+This project including the development This project aims to provide a cloud-based solution for managing and analyzing document 
+files efficiently. The application allows users to upload PDF and DOCX documents, extract 
+content, sort them by their actual titles (not filenames), perform keyword-based searches 
+with visual highlighting, and classify them into meaningful categories using a predefined 
+classification tree. The entire process takes place online through a simple and user-friendly 
+interface.
+To meet requirements, the application is developed as a cloud-based by Supabase —is an 
+open source Firebase alternative platform. And deployed using Render —a cloud hosting 
+service. All operations are executed in the Supabase cloud storage. This ensures scalability, 
+accessibility and a real-world distributed cloud system. This documentation or report, 
+includes the software design, functions, implementation and deployment steps. It also 
+mentioned the challenges and the techniques used to ensure that the application meets the 
+requirements. The cloud-based development methodology which is adapted is Agile Cloud 
+Methodology. Where the application was developed incrementally and based on the 
+requirements.
 
 ---
 
