@@ -8,6 +8,7 @@ content, sort them by their actual titles (not filenames), perform keyword-based
 with visual highlighting, and classify them into meaningful categories using a predefined 
 classification tree. The entire process takes place online through a simple and user-friendly 
 interface.
+
 To meet requirements, the application is developed as a cloud-based by Supabase —is an 
 open source Firebase alternative platform. And deployed using Render —a cloud hosting 
 service. All operations are executed in the Supabase cloud storage. This ensures scalability, 
