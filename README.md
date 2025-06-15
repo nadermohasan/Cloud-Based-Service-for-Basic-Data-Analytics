@@ -2,7 +2,7 @@
 # ☁️ Cloud-Based Service for Basic Data Analytics
 
 ## Introduction
-This project including the development This project aims to provide a cloud-based solution for managing and analyzing document 
+This project aims to provide a cloud-based solution for managing and analyzing document 
 files efficiently. The application allows users to upload PDF and DOCX documents, extract 
 content, sort them by their actual titles (not filenames), perform keyword-based searches 
 with visual highlighting, and classify them into meaningful categories using a predefined 
